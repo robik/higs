@@ -318,3 +318,5 @@ google-services.json
 *.hprof
 
 vcpkg_installed
+
+node_modules/

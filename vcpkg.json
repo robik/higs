@@ -1,9 +1,36 @@
 {
+  "name": "higs",
+  "version": "0.0.1",
+  "license": "MIT",
   "dependencies": [
     {
       "name": "fmt",
       "version>=": "11.0.2#1"
     },
-    "hermes"
+    {
+      "name": "folly",
+      "version>=": "2025.01.27.00"
+    },
+    {
+      "name": "gtest",
+      "version>=": "1.15.2"
+    },
+    "hermes",
+    {
+      "name": "boost-program-options",
+      "version>=": "1.86.0"
+    },
+    {
+      "name": "boost-type-index",
+      "version>=": "1.86.0"
+    },
+    {
+      "name": "boost-pfr",
+      "version>=": "1.87.0"
+    },
+    {
+      "name": "gsl-lite",
+      "version>=": "0.42.0"
+    }
   ]
 }
