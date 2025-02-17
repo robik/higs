@@ -35,6 +35,7 @@ While JSI tries to abstract away JavaScript engines, JSRT tries to do the same w
 - Module resolving and loading interface
 - Native extensions (C++ only TurboModules)
 - Workers
+- Expose C API (so that it can be easily used from Rust/Go/Zig/Swift)
 
 It should be easy to implement interop with NodeAPI in both ways:
 
